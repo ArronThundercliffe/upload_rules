@@ -70,6 +70,7 @@ This repository contains scripts to automate the process of uploading YARA-L rul
 3. **Confirmation:**
 
    After uploading the rules, log in to your SecOps instance and confirm that all the YARA-L rules are present.
+   ![Alt text]./upload_rules.png
 
 ## Contributing
 
