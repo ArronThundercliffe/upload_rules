@@ -14,7 +14,7 @@ API_BASE_URL='https://backstory.googleapis.com'
 SCOPES = ['https://www.googleapis.com/auth/chronicle-backstory']
 
 def get_http_client_from_file(service_account_file):
-  # Create a credential using Google Developer Service Account Credential and Chronicle API scope.
+  # Create a  credential using Google Developer Service Account Credential and Chronicle API scope.
   credentials = service_account.Credentials.from_service_account_file(service_account_file, scopes=SCOPES)
   # Build an HTTP client to make authorized OAuth requests.
   return requests.AuthorizedSession(credentials)
