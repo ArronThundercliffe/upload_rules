@@ -12,7 +12,7 @@ This repository contains scripts to automate the process of uploading YARA-L rul
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/ashnaiku/upload_rules.git](https://github.com/ashnaiku/upload_rules.git)
+   git clone https://github.com/ashnaiku/upload_rules.git
    ```
 
 2. **Create a Python virtual environment:**
