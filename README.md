@@ -19,7 +19,6 @@ This repository contains scripts to automate the process of uploading YARA-L rul
 
    ```bash
    python -m venv ENV_NAME
-   source ashenv/bin/activate
    ```
 
 3. **Activate the virtual environment:**
