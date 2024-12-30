@@ -18,7 +18,8 @@ This repository contains scripts to automate the process of uploading YARA-L rul
 2. **Create a Python virtual environment:**
 
    ```bash
-   python -m venv ENV_NAME 
+   python -m venv ENV_NAME
+   source ashenv/bin/activate
    ```
 
 3. **Activate the virtual environment:**
