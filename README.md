@@ -1,4 +1,3 @@
-
 Markdown
 
 # YARA-L Rule Upload Tool
