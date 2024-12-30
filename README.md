@@ -12,7 +12,8 @@ This repository contains scripts to automate the process of uploading YARA-L rul
 
 1. **Clone the repository:**
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/ashnaiku/upload_rules.git
+
 Create a Python virtual environment:
 
 Bash
