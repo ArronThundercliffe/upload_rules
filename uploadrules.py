@@ -31,7 +31,7 @@ def initialize_command_line_args(
   parser.add_argument(
     "-s", "--silent", action='store_true',  help="supress error messages" )
   parser.add_argument(
-    "-r", "--region", required=False, default="us", choices=("asia-southeast1", "europe", "us"), help="Chronicle instance region (leave blank for US)" )
+    "-r", "--region", required=False, default="us", choices=("australia-southeast1", "southamerica-east1", "northamerica-northeast2", "europe", "europe-west9", "europe-west3", "asia-south1", "me-west1", "europe-west12", "asia-northeast1", "me-central1", "asia-southeast1", "europe-west6", "europe-west2" "us"), help="Chronicle instance region (leave blank for US)" )
     
   parser.set_defaults(make_changes=False)
   return parser.parse_args(args)
